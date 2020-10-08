@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Split Bill Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Split bills the easy way</h1>
+
+        <div id="main">
+
+            <form>
+                <p>How much is your bill amount?</p>
+                <p id="rupee"> ₹ <input id="amt" type="text" placeholder="Bill Amount"></p>
+
+                <p>How much discount is offered?</p>
+                <select id="disc">
+                    <option disabled selected value="2">Choose an option</option>
+                    <option value="1.0">100%</option>
+                    <option value="0.9">90%</option>
+                    <option value="0.8">80%</option>
+                    <option value="0.7">70%</option>
+                    <option value="0.6">60%</option>
+                    <option value="0.5">50%</option>
+                    <option value="0.4">40%</option>
+                    <option value="0.3">30%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.0">No discount</option>
+                </select>
+
+                <p>How many people are sharing the bill?</p>
+                <input id="people" type="text" placeholder="Number of People"> people
+                <button type="button" id="calculate">Calculate</button>
+            </form>
+
+        </div>
+
+        <div id="share">
+            ₹ <span id="result">0.00 each</span>
+            <small id="each">each</small>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="share.js"></script>
+
+</body>
+</html>

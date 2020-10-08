@@ -1,0 +1,101 @@
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #D3D3D3;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background: #4682B4;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+p {
+    padding-left: 20px;
+}
+
+form input[type="text"] {
+    width=90px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#rupee {
+    padding-left: 15px;
+}
+
+#amt {
+    font-size: 14px;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+
+#amt:focus {
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+#people {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+}
+
+
+#disc {
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    font-size: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #5F9EA0;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+button:hover {
+    background: #B0C4DE;
+    border-bottom-color: #B0C4DE;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#share {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#share:before {
+    content: "Shared Amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
